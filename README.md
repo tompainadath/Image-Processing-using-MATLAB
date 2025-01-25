@@ -1,6 +1,6 @@
 # Image-Processing-using-MATLAB
 # Introduction
-The main objective of the project was to get process images using low pass high passing different images and compare the results. Image processing is a form of discrete-time signal processing with two dimensions instead of one. Most of the signal processing concepts used can be applied to image processing as well. For this MATLAB software was used
+The main objective of the project was to process images using low pass high passing different images and compare the results. Image processing is a form of discrete-time signal processing with two dimensions instead of one. Most of the signal processing concepts used can be applied to image processing as well. For this MATLAB software was used
 # Methods
 Loaded three test images one by one on to MATLAB using [img,cm] = imread(filename) command. Plotted the images using imshow function and observed the images. Used the image and colormap cm as parameters. Changed to different colormaps to observe the differences. 
     The next step was to create a low pass filter. For this, function fspecial was used. The type of filter used was ‘average’ as recommended. The function imfilter was used to apply the filter on to the image and set the variable filtered_image# to each of the filtered image data. The parameters used for this were the filter created and the image data. The filtered image was then plotted using the imfilter function. Plotted myFFT2 of the filter with default HSIZE and compare it with different HSIZE values. Also observed changes in the filtered images. 
